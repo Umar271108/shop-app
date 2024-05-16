@@ -1,0 +1,83 @@
+.section-one {
+    margin-top: 160px;
+}
+
+.section-one-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.swipe {
+    width: 556px;
+    margin: 0 auto;
+}
+
+.swiper{
+    position: unset!important;
+}
+
+.content-title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+
+.content-price {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.2px;
+}
+
+.content-btn {
+    margin-top: 55px;
+    background-color: #D7B399;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    padding: 18px 30px;
+    border: none;
+    transition: all 0.4s linear;
+}
+
+.content-btn:hover {
+    background-color: #000;
+    transition: all 0.4s linear;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    width: 30px;
+    border-radius: 0;
+    height: 6px;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background: #D7B399;
+}
+
+.section-one-inner {
+    position: relative!important;
+    display: flex;
+    align-items: center;
+}
+
+.swiper-pagination {
+    position: absolute!important;
+    bottom: -130px!important;
+    right: 0;
+}
+
+.swiper-horizontal {
+    bottom: -100px;
+}

@@ -1,0 +1,60 @@
+.section-six {
+    background-color: #212121;
+    padding: 71px 0;
+}
+
+.section-six-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-six-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.section-six-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+
+.input {
+    padding: 12px 0 12px 20px;
+    width: 255px;
+    color: #8D8D8D;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    outline: none;
+}
+
+.form-btn {
+    padding: 12px 14px;
+    background-color: #D7B399;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    transition: all 0.4s linear;
+}
+
+.form-btn:hover {
+    background-color: #000;
+    transition: all 0.4s linear;
+}

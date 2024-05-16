@@ -1,0 +1,27 @@
+.section-four-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-four-line {
+    display: flex;
+}
+
+.section-four-card {
+    height: 236px;
+    position: relative;
+}
+
+.card-text {
+    position: absolute;
+    bottom: 24px;
+    left: 30px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.63px;
+}
